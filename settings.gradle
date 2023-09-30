@@ -1,0 +1,28 @@
+pluginManagement {
+    repositories {
+        maven { url "https://maven.aliyun.com/repository/public/" }
+        maven { url "https://jitpack.io" }
+        google()
+        mavenCentral()
+        mavenLocal()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url "https://maven.aliyun.com/repository/public/" }
+        maven { url "https://jitpack.io" }
+        mavenLocal()
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "VisionGrader"
+include ':app'
+include ':opencv'
+include ':libnative'
+include ':libausbc'
+include ':libuvccommon'
+include ':libuvc'
+include ':libutils'

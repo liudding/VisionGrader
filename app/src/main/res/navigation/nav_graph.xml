@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment"
+    >
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.linkstar.visiongrader.ui.home.HomeFragment"
+        android:label="@string/home_fragment_label"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_ScannerFragment"
+            app:destination="@id/ScannerFragment" />
+
+<!--        <action-->
+<!--            android:id="@+id/action_HomeFragment_to_DemoFragment"-->
+<!--            app:destination="@id/DemoFragment" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/ScannerFragment"
+        android:name="com.linkstar.visiongrader.ui.scanner.ScannerFragment"
+        android:label="@string/scanner_fragment_label"
+        tools:layout="@layout/fragment_scanner">
+
+        <action
+            android:id="@+id/action_ScannerFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.linkstar.visiongrader.ui.login.LoginFragment"
+        android:label="@string/login"
+        tools:layout="@layout/fragment_login">
+
+    </fragment>
+
+<!--    <fragment-->
+<!--        android:id="@+id/DemoFragment"-->
+<!--        android:name="com.nxlinkstar.stargrader.ui.DemoFragment"-->
+<!--        android:label="Demo"-->
+<!--        tools:layout="@layout/fragment_scanner">-->
+
+<!--    </fragment>-->
+
+</navigation>

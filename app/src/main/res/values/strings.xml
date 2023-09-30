@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">VisionGrader</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="home_fragment_label">Home</string>
+    <string name="scanner_fragment_label">扫描批阅</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">账户</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">无效的用户名</string>
+    <string name="invalid_password">密码至少 6 位</string>
+    <string name="login_failed">"登录失败"</string>
+    <string name="scan_workbook">拍练习册</string>
+    <string name="change_workbook">切换练习册</string>
+    <string name="login">登录</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">退出登录</string>
+
+    <string name="permission_tip" translatable="false">You have already denied permission access. Go to the Settings page to turn on permissions</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="gray">#888888</color>
+    <color name="lightgray">#eeeeee</color>
+    <color name="white">#FFFFFF</color>
+    <color name="toolbar_bg">#FF0000</color>
+
+    <color name="primary">#037CFF</color>
+    <color name="primary_dark">#003A78</color>
+    <color name="accent">#FF6CD6</color>
+
+
+
+
+    <color name="zdc_transparent_black">#99000000</color>
+    <color name="zdc_gray">#afadae</color>
+    <color name="zdc_red">#E9001C</color>
+    <color name="zdc_white_transparent">#77ffffff</color>
+</resources>
