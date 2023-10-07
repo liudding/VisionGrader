@@ -288,6 +288,7 @@ class ScannerFragment : CameraFragment(), CaptureMediaView.OnViewClickListener {
                                 viewModel.setCurrentStudent("test")
                                 ToastUtils.show("扫描成功 ")
                                 viewModel.addNewScanned(it)
+                                SoundUtils.playBeep()
                             }
                         }
                     } catch (e: Exception) {
@@ -558,9 +559,9 @@ class ScannerFragment : CameraFragment(), CaptureMediaView.OnViewClickListener {
         }
 
 
-//        binding.testbtn.setOnClickListener{
-//            SoundUtils.playBeep()
-//        }
+        binding.testbtn.setOnClickListener{
+            SoundUtils.playBeep()
+        }
 
 
 //        binding.chan.setOnClickListener {

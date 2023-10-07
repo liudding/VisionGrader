@@ -46,13 +46,12 @@
                 android:textSize="10sp"
                 tools:text="23" />
 
-<!--            <Button-->
-<!--                android:id="@+id/testbtn"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="btn">-->
-
-<!--            </Button>-->
+            <Button
+                android:id="@+id/testbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="btn">
+            </Button>
         </LinearLayout>
         <LinearLayout
             android:id="@+id/scanned_stats"
